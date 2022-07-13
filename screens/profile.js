@@ -5,7 +5,7 @@ import { StyleSheet, Text, View } from "react-native";
 export default function profile() {
   return (
     <View style={styles.container}>
-      <Text>This is the home screen</Text>
+      <Text>This is the Profile screen</Text>
     </View>
   );
 }

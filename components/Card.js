@@ -1,6 +1,5 @@
 import React from 'react';
 import {StyleSheet, TouchableOpacity, Image} from 'react-native';
-
 import List from './List';
 import PropTypes from 'prop-types';
 

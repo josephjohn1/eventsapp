@@ -10,7 +10,7 @@ const HomeHeader = () => {
         <View style={styles.container}>
 
 
-           <Text>hghgccmhg</Text>
+           <Text>Hi Bernald</Text>
                 </View>
           
 

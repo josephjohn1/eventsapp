@@ -9,9 +9,10 @@ import 'react-native-gesture-handler';
 import { NavigationContainer,DefaultTheme, DarkTheme,  useTheme, } from '@react-navigation/native';
 import Icon from 'react-native-vector-icons/FontAwesome';
 
+
 const Tab = createBottomTabNavigator();
 
-const Stack = createNativeStackNavigator();
+//const Stack = createNativeStackNavigator();
 const App = () => {
    
   const scheme = useColorScheme();
@@ -28,7 +29,7 @@ const App = () => {
             if (route.name === "Home") {
               iconName = focused ? "home" : "home-outline";
             } else if (route.name === "profile") {
-              iconName = focused ? "ios-search" : "ios-search-outline";
+              iconName = focused ? "profile" : "profile-outline";
             }
 
             return <Icon name={iconName} size={size} color={color} />;
